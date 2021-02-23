@@ -16,4 +16,4 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
-- **Wes Bos' [Master Gatsby course](https://mastergatsby.com/) is kick ass.** I think it's worth every penny, and covers the whole Gatsby ecosystem (Sanity CMS, `styled-components`, handling images).
+- **Andrew Mead's [The Great Gatsby Bootcamp](https://www.youtube.com/watch?v=8t0vNu2fCCM) is great.** It goes through everything you need to build and launch your first site with Gatsby. You’ll build a website from scratch and learn how to get it deployed to production.

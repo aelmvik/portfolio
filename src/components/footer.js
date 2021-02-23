@@ -1,10 +1,11 @@
 import React from 'react'
-import { graphql, useStaticQuery } from 'gatsby'
+// import { graphql, useStaticQuery } from 'gatsby'
 
 import footerStyles from '../styles/footer.module.scss'
 
 const Footer = () => {
-    const data = useStaticQuery(graphql`
+/*     
+const data = useStaticQuery(graphql`
     query {
         site {
             siteMetadata {
@@ -12,12 +13,12 @@ const Footer = () => {
             }
         }
     }
-`)
+`) */
 
     return (
         <footer className={footerStyles.footer}>
             <p>
-            made with ♥️ + ☕ in 🇫🇮
+            made with <span role="img" aria-label="heart">♥️</span> + <span role="img" aria-label="coffee">☕</span> in <span role="img" aria-label="finland">🇫🇮</span>
             </p>
         </footer>
     )
