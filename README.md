@@ -2,7 +2,7 @@
 
 ## 💫 Deploy status
 
-[![Netlify Status]()](https://app.netlify.com/sites/antonelmvik/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0f9f95d2-2574-47b4-9fa4-30e46c006b3c/deploy-status)](https://app.netlify.com/sites/antonelm/deploys)
 
 ## ☕️ tl;dr
 
