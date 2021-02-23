@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:slnt,wght,CASL,CRSV,MONO@-15..0,300..1000,0..1,0..1,0..1&display=swap');
+
+.header {
+    padding: 1rem 0 3rem;
+}
+
+.title {
+    font-family: 'Recursive', monospace;
+    letter-spacing: -0.05em;
+    font-variation-settings: 'slnt' -15, 'wght' 900, 'CASL' 1;
+    color: #D65BA5;
+    font-size: 5rem;
+    text-decoration: none;
+}
+
+.nav-list {
+    font-family: 'Recursive', monospace;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav-item {
+    color: #4069E0;
+    font-size: 1rem;
+    font-variation-settings: 'slnt' 0, 'wght' 600, 'CASL' 0;
+    margin-right: 1.3rem;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    font-variation-settings: 'slnt' -15, 'wght' 700, 'CASL' 1;
+    transition-duration: 0.1s;
+}
+
+.active-nav-item {
+    font-variation-settings: 'slnt' -15, 'wght' 700, 'CASL' 1;
+    color:#D65BA5;
+}
+
+
+@media screen and (max-width: 571px) {
+    .title {
+        font-size: 3.5rem;
+    }
+    .header {
+        text-align: center;
+    }
+    .nav-list{
+        display:inline-flex;
+        margin: 0 auto;
+        margin-left: .65rem;
+    }
+  }
+@media screen and (max-width: 363px) {
+    .title {
+        font-size: 3rem;
+    }
+    .header {
+        text-align: center;
+    }
+  }

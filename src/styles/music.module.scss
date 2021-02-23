@@ -1,0 +1,35 @@
+.list{
+
+}
+
+.list-item {
+    font-size: 1rem;
+    font-variation-settings: 'slnt' 0, 'wght' 600, 'CASL' 0;
+    margin-bottom: .1rem;
+    a {
+        color: #4069E0;
+        text-decoration: none;
+    }
+}
+.red {
+    color: red;
+}
+
+.list-break {
+    font-size: 1rem;
+    font-variation-settings: 'slnt' 0, 'wght' 600, 'CASL' 0;
+    margin-top: 1rem;
+    margin-bottom: .1rem;
+}
+
+.title-break{
+    margin-top: 1rem;
+}
+
+.list-item:hover {
+    a {
+        font-variation-settings: 'slnt' -15, 'wght' 700, 'CASL' 1;
+        transition-duration: 0.1s;
+        color: #D65BA5;
+    }
+}
