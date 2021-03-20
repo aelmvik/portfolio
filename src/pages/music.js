@@ -13,6 +13,7 @@ const MusicPage = () => {
         <h3>twenty twenty</h3>
         <div className={musicStyles.list}>
           <p className={musicStyles.listBreak}>played on, recorded and produced <span role="img" aria-label="arrow">⤵️</span></p>
+          <p className={musicStyles.listItem}><a href="https://youtu.be/kh8VvWwssCE" target="_blank" rel="noreferrer nofollow">Lady Madonna</a></p>
           <p className={musicStyles.listItem}><a href="https://youtu.be/2kpNabx7e-M" target="_blank" rel="noreferrer nofollow">Because</a></p>
           <p className={musicStyles.listItem}><a href="https://youtu.be/FpoBF-lH8v8" target="_blank" rel="noreferrer nofollow">Hey Bulldog</a></p>
           <p className={musicStyles.listItem}><a href="https://youtu.be/z_UFHhzXBvI" target="_blank" rel="noreferrer nofollow">A Day In The Life</a></p>
