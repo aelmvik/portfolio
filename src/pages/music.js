@@ -9,7 +9,7 @@ const MusicPage = () => {
       <Layout>
         <Head title="Music"/>
         <h1>Discography <span role="img" aria-label="disc">💿</span></h1>
-        <h3>Below are some things I’ve done in my life, in reverse chronological order:</h3>
+        <h2>Below are some things I’ve done</h2>
         <h3>twenty twentyone</h3>
         <div className={musicStyles.list}>
           <p className={musicStyles.listBreak}>played on, recorded and produced <span role="img" aria-label="arrow">⤵️</span></p>
